@@ -1,0 +1,38 @@
+﻿
+> client@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 5.4s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/11) ...
+node.exe : Error occurred 
+prerendering page "/farmer". Read 
+more: https://nextjs.org/docs/messag
+es/prerender-error
+At C:\Program 
+Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSp 
+   ecified: (Error occurred ...pre  
+  render-error:String) [], Remote   
+ Exception
+    + FullyQualifiedErrorId : Nativ 
+   eCommandError
+ 
+ReferenceError: Cannot access 'aj' 
+before initialization
+    at F (C:\Users\SAMANVITA\green-m
+andi\client\.next\server\chunks\ssr\
+_8ef0f117._.js:1:95734) {
+  digest: '2304530715'
+}
+Export encountered an error on 
+/farmer/page: /farmer, exiting the 
+build.
+Γ¿» Next.js build worker exited 
+with code: 1 and signal: null
