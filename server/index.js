@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const authRoutes = require("./routes/auth");
-const listingRoutes = require("./routes/listings");
+const listingRoutes = require("./routes/listings"); 
 const orderRoutes = require("./routes/orders");
 
 const app = express();
